@@ -52,11 +52,12 @@
 # path = 'file1.txt'
 # data = open(path, 'r') # считываем файл
 # for line in data:
-#     print(line)
+#     num = line
+#     print(num)
 # data.close()
-# line = line[: -1] # удаляем последний символ (пробел), что бы программа не капризничала
+# num = num[: -1] # удаляем последний символ (пробел), что бы программа не капризничала
 
-# result_list = bubble_sort(line) # получаем отсортированный список
+# result_list = bubble_sort(num) # получаем отсортированный список
 # result = str(result_list) # переводим его в стррку
 # result = result.replace(',', '')
 # result = result.replace('[', '')
